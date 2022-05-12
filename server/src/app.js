@@ -13,7 +13,7 @@ app.use(cors())
 
 app.post('/register', (req, res) => {
     res.send({
-        test: `teste register ${req.body.email}`
+        test: `This is the email you used to register ${req.body.email}`
     })
 
 })

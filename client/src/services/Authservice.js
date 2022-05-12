@@ -1,4 +1,4 @@
-import Api from '@/services/APi'
+import Api from '@/services/Api'
 
 export default {
     register(credentials) {
@@ -7,9 +7,3 @@ export default {
     }
 
 }
-
-// Authservice.register({
-//     email: "test@test.com",
-//     password: "test"
-
-// })
